@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,700');
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+/* ==========================================================================
+Grid Systems
+   ========================================================================== */
