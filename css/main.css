@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arapey');
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+h1 {
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+p {
+  text-align: center;
+  font-family: 'Arapey', serif;
+}
+
+
+/* ==========================================================================
+Grid Systems
+========================================================================== */
+
+
+/* ==========================================================================
+Header
+========================================================================== */
+.logo-img-container {
+  position: relative;
+  margin-top: -70px;
+  text-align: center;
+ }
+/* ==========================================================================
+Nav
+========================================================================== */
+nav {
+  background-color: #8AC53F;
+  font-family: 'Arapey', serif;
+  font-size: 21px;
+}
+nav ul {
+  text-align: center;
+  margin-top: 0px;
+  padding: 60px;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  color: #083D83;
+}
+
+
+/* ==========================================================================
+Mission Statement
+========================================================================== */
+.mission {
+
+}
+
+
+/* ==========================================================================
+Description
+========================================================================== */
+.description {
+  padding: 50px;
+  background-color: #F2F2F2;
+}
+.description p {
+  line-height: 1.5;
+}
+.description h1 {
+  color: #083D83;
+}
+
+/* ==========================================================================
+Contact Us
+========================================================================== */
+
+form {
+ font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #083D83;
+  padding: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+input, textarea {
+ display: block;
+ font-family: 'Open Sans Condensed', sans-serif;
+ text-transform: uppercase;
+ padding: 8px 25.5px;
+ text-align: center;
+ margin-bottom: 10px;
+ border: #083D83;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button {
+ background-color: #083D83;
+ color: white;
+ font-family: 'Open Sans Condensed', sans-serif;
+ text-transform: uppercase;
+ padding: 5px 250px 5px 250px;
+ text-align: center;
+ margin-top: 10px;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button:hover {
+ color: #083D83;
+ background-color: white;
+ border: 2px solid #083D83;
+ font-family: 'Open Sans Condensed', sans-serif;
+ text-transform: uppercase;
+ padding: 5px 250px 5px 250px;
+ transition: 0.25s;
+ cursor:pointer;
+}
+/* ==========================================================================
+Footer
+========================================================================== */
+footer {
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #8AC53F;
+  font-family: 'Arapey', serif;
+  font-size: 21px;
+}
+footer a {
+  text-decoration: none;
+  color: #083D83;
+}
+.footer-nav ul {
+  text-align: center;
+  margin-top: 0;
+  padding: 40px;
+}
+.footer-nav li {
+  display: inline-block;
+}
+.footer-nav li a {
+  text-decoration: none;
+  color: #083D83;
+}
