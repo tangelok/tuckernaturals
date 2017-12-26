@@ -21,7 +21,6 @@ p {
   font-family: 'Arapey', serif;
 }
 
-
 /* ==========================================================================
 Grid Systems
 ========================================================================== */
@@ -32,7 +31,7 @@ Header
 ========================================================================== */
 .logo-img-container {
   position: relative;
-  margin-top: -70px;
+  margin-top: -80px;
   text-align: center;
  }
 /* ==========================================================================
@@ -55,15 +54,21 @@ nav li a {
   text-decoration: none;
   color: #083D83;
 }
+nav li a:hover {
+  text-decoration: none;
+  color: #F2F2F2;
+}
 
 
 /* ==========================================================================
 Mission Statement
 ========================================================================== */
 .mission {
-
+  padding: 50px;
 }
-
+.mission h1 {
+  color: #8AC53F;
+}
 
 /* ==========================================================================
 Description
@@ -80,11 +85,20 @@ Description
 }
 
 /* ==========================================================================
+Description
+========================================================================== */
+.quality {
+  padding: 50px;
+}
+.quality h1 {
+  color: #8AC53F;
+}
+/* ==========================================================================
 Contact Us
 ========================================================================== */
 
 form {
- font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Arapey', serif;
   -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
   letter-spacing: .02em;
@@ -96,31 +110,31 @@ form {
 }
 input, textarea {
  display: block;
- font-family: 'Open Sans Condensed', sans-serif;
+ font-family: 'Arapey', serif;
  text-transform: uppercase;
  padding: 8px 25.5px;
  text-align: center;
  margin-bottom: 10px;
  border: #083D83;
  width: 100%;
- font-size: 18px;
+ font-size: 21px;
 }
 .form-button {
  background-color: #083D83;
  color: white;
- font-family: 'Open Sans Condensed', sans-serif;
+ font-family: 'Arapey', serif;
  text-transform: uppercase;
  padding: 5px 250px 5px 250px;
  text-align: center;
  margin-top: 10px;
  width: 100%;
- font-size: 18px;
+ font-size: 21px;
 }
 .form-button:hover {
  color: #083D83;
  background-color: white;
  border: 2px solid #083D83;
- font-family: 'Open Sans Condensed', sans-serif;
+ font-family: 'Arapey', serif;
  text-transform: uppercase;
  padding: 5px 250px 5px 250px;
  transition: 0.25s;
@@ -130,28 +144,33 @@ input, textarea {
 Footer
 ========================================================================== */
 footer {
-  display: inline-block;
-  margin-right: 50px;
-  margin-top: 15px;
-  font-size: 15px;
-  text-align: center;
+  font-size: 17px;
   background-color: #8AC53F;
   font-family: 'Arapey', serif;
-  font-size: 21px;
+  padding: 10px;
 }
 footer a {
   text-decoration: none;
   color: #083D83;
 }
-.footer-nav ul {
+footer ul {
   text-align: center;
-  margin-top: 0;
-  padding: 40px;
+  margin-bottom: 0;
 }
-.footer-nav li {
+footer li {
   display: inline-block;
 }
-.footer-nav li a {
+footer li a {
   text-decoration: none;
   color: #083D83;
+  margin: 10px;
+}
+footer li a:hover {
+  color: #083D83;
+}
+footer a:hover {
+  color: #083D83;
+}
+#site {
+  float: left;
 }
