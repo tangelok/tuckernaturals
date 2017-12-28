@@ -15,6 +15,7 @@ img {
 h1 {
   text-align: center;
   font-family: 'Abril Fatface', cursive;
+  color: #083D83;
 }
 p {
   text-align: center;
@@ -24,15 +25,24 @@ p {
 /* ==========================================================================
 Grid Systems
 ========================================================================== */
-
+.col-1-4 {
+  flex-basis: 20%;
+}
 
 /* ==========================================================================
 Header
 ========================================================================== */
-.logo-img-container {
+/* .logo-img-container {
   position: relative;
   margin-top: -80px;
   text-align: center;
+ } */
+ header {
+   background-color: #B9DC8D;
+ }
+ .logo {
+   height: 90px;
+   width: 150px;
  }
 /* ==========================================================================
 Nav
@@ -40,12 +50,13 @@ Nav
 nav {
   background-color: #8AC53F;
   font-family: 'Arapey', serif;
-  font-size: 21px;
+  font-size: 19px;
 }
 nav ul {
   text-align: center;
   margin-top: 0px;
-  padding: 60px;
+  padding: 30px;
+  margin-bottom:0
 }
 nav li {
   display: inline-block;
@@ -53,6 +64,7 @@ nav li {
 nav li a {
   text-decoration: none;
   color: #083D83;
+  margin: 0 10px 0 10px;
 }
 nav li a:hover {
   text-decoration: none;
@@ -64,39 +76,76 @@ nav li a:hover {
 Mission Statement
 ========================================================================== */
 .mission {
+  padding: 80px;
+  background-image: url('../img/white-grow.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #083D83;
+}
+/* ==========================================================================
+Home- Image Carousel
+========================================================================== */
+.carousel-wrapper img {
+ margin: 0 auto;
+ height: 400px;
+ width: 600px;
+}
+.slick-prev {
+ z-index: 100;
+ left: 150px;
+ color: #043A83;
+}
+.slick-next {
+ z-index: 100;
+}
+.img-carousel {
   padding: 50px;
 }
-.mission h1 {
-  color: #8AC53F;
-}
-
 /* ==========================================================================
 Description
 ========================================================================== */
 .description {
   padding: 50px;
-  background-color: #F2F2F2;
+  padding-top: 0;
 }
 .description p {
   line-height: 1.5;
 }
-.description h1 {
-  color: #083D83;
-}
-
 /* ==========================================================================
-Description
+Quality
 ========================================================================== */
 .quality {
   padding: 50px;
+  background-color: #F2F2F2;
 }
-.quality h1 {
-  color: #8AC53F;
+.quality-grid-wrapper {
+  display: flex;
+}
+.quality-img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.stacked-img {
+  display: flex;
+}
+.quality-text {
+  padding: 50px;
+}
+/* ==========================================================================
+App
+========================================================================== */
+.app {
+  padding: 50px;
+}
+.partners {
+  display: inline-block;
 }
 /* ==========================================================================
 Contact Us
 ========================================================================== */
-
+.contact {
+  background-color: #F2F2F2;
+}
 form {
   font-family: 'Arapey', serif;
   -webkit-font-smoothing: antialiased;
@@ -145,24 +194,41 @@ Footer
 ========================================================================== */
 footer {
   font-size: 17px;
-  background-color: #8AC53F;
+  background-color: #B9DC8D;
   font-family: 'Arapey', serif;
-  padding: 10px;
+  padding: 10px 10px 15px 10px;
+  text-align: center;
+}
+.info-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+}
+.footer-bottom {
+  margin-top: 40px;
+}
+#site {
+  margin-top: 50px;
+}
+.social-links a {
+	font-size: 30px;
+	padding: 15px;
+	display: inline-block;
+  justify-content: center;
+	color: #193441;
 }
 footer a {
   text-decoration: none;
   color: #083D83;
 }
 footer ul {
-  text-align: center;
   margin-bottom: 0;
 }
 footer li {
   display: inline-block;
 }
 footer li a {
-  text-decoration: none;
-  color: #083D83;
   margin: 10px;
 }
 footer li a:hover {
@@ -171,6 +237,29 @@ footer li a:hover {
 footer a:hover {
   color: #083D83;
 }
-#site {
-  float: left;
+.copyright {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  border-top: 2px solid #193441;
+  padding: 15px 0 3px;
+}
+.newsletter input {
+  font-size: 15px;
+}
+
+/* ==========================================================================
+Careers.html
+========================================================================== */
+.careers h1 {
+  text-align: center;
+}
+/* ==========================================================================
+Grow.html
+========================================================================== */
+.grow h2 {
+  color: #8AC53F;
+  text-align: center;
+}
+.grow {
+  padding: 50px;
 }
