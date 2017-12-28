@@ -25,7 +25,9 @@ p {
 /* ==========================================================================
 Grid Systems
 ========================================================================== */
-
+.col-1-4 {
+  flex-basis: 20%;
+}
 
 /* ==========================================================================
 Header
@@ -35,26 +37,12 @@ Header
   margin-top: -80px;
   text-align: center;
  } */
- .carousel-wrapper img {
-  margin: 0 auto;
-  height: 400px;
-  width: 600px;
- }
- .slick-prev {
-  z-index: 100;
-  left: 150px;
-  color: #043A83;
- }
- .slick-next {
-  z-index: 100;
- }
  header {
    background-color: #B9DC8D;
  }
- #logo {
-   height: 120px;
-   width: 200px;
-
+ .logo {
+   height: 90px;
+   width: 150px;
  }
 /* ==========================================================================
 Nav
@@ -68,6 +56,7 @@ nav ul {
   text-align: center;
   margin-top: 0px;
   padding: 30px;
+  margin-bottom:0
 }
 nav li {
   display: inline-block;
@@ -87,9 +76,31 @@ nav li a:hover {
 Mission Statement
 ========================================================================== */
 .mission {
+  padding: 80px;
+  background-image: url('../img/white-grow.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #083D83;
+}
+/* ==========================================================================
+Home- Image Carousel
+========================================================================== */
+.carousel-wrapper img {
+ margin: 0 auto;
+ height: 400px;
+ width: 600px;
+}
+.slick-prev {
+ z-index: 100;
+ left: 150px;
+ color: #043A83;
+}
+.slick-next {
+ z-index: 100;
+}
+.img-carousel {
   padding: 50px;
 }
-
 /* ==========================================================================
 Description
 ========================================================================== */
@@ -183,9 +194,38 @@ Footer
 ========================================================================== */
 footer {
   font-size: 17px;
-  background-color: #8AC53F;
+  background-color: #B9DC8D;
   font-family: 'Arapey', serif;
   padding: 10px 10px 15px 10px;
+  text-align: center;
+}
+.info-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+}
+.info-footer a:hover {
+  color: white;
+}
+.footer-bottom {
+  margin-top: 40px;
+}
+#site {
+  margin-top: 50px;
+}
+#site a:hover {
+  color: white;
+}
+.social-links a {
+	font-size: 30px;
+	padding: 15px;
+	display: inline-block;
+  justify-content: center;
+	color: #083D83;;
+}
+.social-links a:hover {
+  color: white;
 }
 footer a {
   text-decoration: none;
@@ -198,8 +238,6 @@ footer li {
   display: inline-block;
 }
 footer li a {
-  text-decoration: none;
-  color: #083D83;
   margin: 10px;
 }
 footer li a:hover {
@@ -208,16 +246,22 @@ footer li a:hover {
 footer a:hover {
   color: #083D83;
 }
-#site {
- margin-left: 0;
+.copyright {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  border-top: 2px solid #193441;
+  padding: 15px 0 3px;
 }
-#partners {
-  margin-left: 120px;
+.newsletter input {
+  font-size: 15px;
 }
-#info {
-  margin-left: 120px;
+.newsletter h3 {
+  color: #083D83;
 }
-
+.submit:hover {
+  background-color: #083D83;
+  color: white;
+}
 
 /* ==========================================================================
 Careers.html
@@ -229,7 +273,8 @@ Careers.html
 Grow.html
 ========================================================================== */
 .grow h2 {
-
+  color: #8AC53F;
+  text-align: center;
 }
 .grow {
   padding: 50px;
