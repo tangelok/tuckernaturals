@@ -29,11 +29,11 @@ Grid Systems
 /* ==========================================================================
 Header
 ========================================================================== */
-.logo-img-container {
+/* .logo-img-container {
   position: relative;
   margin-top: -80px;
   text-align: center;
- }
+ } */
  .carousel-wrapper img {
   margin: 0 auto;
   height: 400px;
@@ -47,6 +47,14 @@ Header
  .slick-next {
   z-index: 100;
  }
+ header {
+   background-color: #B9DC8D;
+ }
+ #logo {
+   float: left;
+   height: 120px;
+   width: 200px;
+ }
 /* ==========================================================================
 Nav
 ========================================================================== */
@@ -58,7 +66,7 @@ nav {
 nav ul {
   text-align: center;
   margin-top: 0px;
-  padding: 60px;
+  padding: 40px;
 }
 nav li {
   display: inline-block;
@@ -66,7 +74,7 @@ nav li {
 nav li a {
   text-decoration: none;
   color: #083D83;
-  margin: 0 20px 0 20px;
+  margin: 0 10px 0 10px;
 }
 nav li a:hover {
   text-decoration: none;
@@ -109,13 +117,16 @@ Quality
   color: #547924;
 }
 /* ==========================================================================
-Quality
+App
 ========================================================================== */
 .app {
   padding: 50px;
 }
 .app h1 {
   color: #083D83;
+}
+.partners {
+  display: inline-block;
 }
 /* ==========================================================================
 Contact Us
