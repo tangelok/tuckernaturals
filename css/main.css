@@ -203,7 +203,10 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 14px;
+  font-size: 15px;
+}
+.info-footer a:hover {
+  color: white;
 }
 .footer-bottom {
   margin-top: 40px;
@@ -211,12 +214,18 @@ footer {
 #site {
   margin-top: 50px;
 }
+#site a:hover {
+  color: white;
+}
 .social-links a {
 	font-size: 30px;
 	padding: 15px;
 	display: inline-block;
   justify-content: center;
-	color: #193441;
+	color: #083D83;;
+}
+.social-links a:hover {
+  color: white;
 }
 footer a {
   text-decoration: none;
@@ -245,6 +254,13 @@ footer a:hover {
 }
 .newsletter input {
   font-size: 15px;
+}
+.newsletter h3 {
+  color: #083D83;
+}
+.submit:hover {
+  background-color: #083D83;
+  color: white;
 }
 
 /* ==========================================================================
