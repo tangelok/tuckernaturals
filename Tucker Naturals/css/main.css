@@ -36,6 +36,8 @@ Header
  }
  .carousel-wrapper img {
   margin: 0 auto;
+  height: 400px;
+  width: 600px;
  }
  .slick-prev {
   z-index: 100;
@@ -51,7 +53,7 @@ Nav
 nav {
   background-color: #8AC53F;
   font-family: 'Arapey', serif;
-  font-size: 21px;
+  font-size: 19px;
 }
 nav ul {
   text-align: center;
@@ -64,6 +66,7 @@ nav li {
 nav li a {
   text-decoration: none;
   color: #083D83;
+  margin: 0 20px 0 20px;
 }
 nav li a:hover {
   text-decoration: none;
@@ -79,7 +82,7 @@ Mission Statement
   background-color: #F2F2F2;
 }
 .mission h1 {
-  color: #8AC53F;
+  color: #547924;
 }
 
 /* ==========================================================================
@@ -103,7 +106,7 @@ Quality
   background-color: #F2F2F2;
 }
 .quality h1 {
-  color: #8AC53F;
+  color: #547924;
 }
 /* ==========================================================================
 Quality
