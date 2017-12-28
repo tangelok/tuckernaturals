@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arapey');
 
 /* ==========================================================================
    Base styles:
@@ -12,7 +12,188 @@
 img {
   max-width: 100%;
 }
+h1 {
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+p {
+  text-align: center;
+  font-family: 'Arapey', serif;
+}
 
 /* ==========================================================================
 Grid Systems
-   ========================================================================== */
+========================================================================== */
+
+
+/* ==========================================================================
+Header
+========================================================================== */
+.logo-img-container {
+  position: relative;
+  margin-top: -80px;
+  text-align: center;
+ }
+ .carousel-wrapper img {
+  margin: 0 auto;
+ }
+ .slick-prev {
+  z-index: 100;
+  left: 150px;
+  color: #043A83;
+ }
+ .slick-next {
+  z-index: 100;
+ }
+/* ==========================================================================
+Nav
+========================================================================== */
+nav {
+  background-color: #8AC53F;
+  font-family: 'Arapey', serif;
+  font-size: 21px;
+}
+nav ul {
+  text-align: center;
+  margin-top: 0px;
+  padding: 60px;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  color: #083D83;
+}
+nav li a:hover {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+
+/* ==========================================================================
+Mission Statement
+========================================================================== */
+.mission {
+  padding: 50px;
+  background-color: #F2F2F2;
+}
+.mission h1 {
+  color: #8AC53F;
+}
+
+/* ==========================================================================
+Description
+========================================================================== */
+.description {
+  padding: 50px;
+}
+.description p {
+  line-height: 1.5;
+}
+.description h1 {
+  color: #083D83;
+}
+
+/* ==========================================================================
+Quality
+========================================================================== */
+.quality {
+  padding: 50px;
+  background-color: #F2F2F2;
+}
+.quality h1 {
+  color: #8AC53F;
+}
+/* ==========================================================================
+Quality
+========================================================================== */
+.app {
+  padding: 50px;
+}
+.app h1 {
+  color: #083D83;
+}
+/* ==========================================================================
+Contact Us
+========================================================================== */
+.contact {
+  background-color: #F2F2F2;
+}
+form {
+  font-family: 'Arapey', serif;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #083D83;
+  padding: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+input, textarea {
+ display: block;
+ font-family: 'Arapey', serif;
+ text-transform: uppercase;
+ padding: 8px 25.5px;
+ text-align: center;
+ margin-bottom: 10px;
+ border: #083D83;
+ width: 100%;
+ font-size: 21px;
+}
+.form-button {
+ background-color: #083D83;
+ color: white;
+ font-family: 'Arapey', serif;
+ text-transform: uppercase;
+ padding: 5px 250px 5px 250px;
+ text-align: center;
+ margin-top: 10px;
+ width: 100%;
+ font-size: 21px;
+}
+.form-button:hover {
+ color: #083D83;
+ background-color: white;
+ border: 2px solid #083D83;
+ font-family: 'Arapey', serif;
+ text-transform: uppercase;
+ padding: 5px 250px 5px 250px;
+ transition: 0.25s;
+ cursor:pointer;
+}
+/* ==========================================================================
+Footer
+========================================================================== */
+footer {
+  font-size: 17px;
+  background-color: #8AC53F;
+  font-family: 'Arapey', serif;
+  padding: 10px;
+}
+footer a {
+  text-decoration: none;
+  color: #083D83;
+}
+footer ul {
+  text-align: center;
+  margin-bottom: 0;
+}
+footer li {
+  display: inline-block;
+}
+footer li a {
+  text-decoration: none;
+  color: #083D83;
+  margin: 10px;
+}
+footer li a:hover {
+  color: #083D83;
+}
+footer a:hover {
+  color: #083D83;
+}
+#site {
+  float: left;
+}
