@@ -28,7 +28,28 @@ Grid Systems
 .col-1-4 {
   flex-basis: 20%;
 }
+.col-1-3 {
+  flex-basis: 33%;
+}
+.col-2-3 {
+  flex-basis: 66%;
+}
+/* ==========================================================================
+Buttons
+========================================================================== */
+.read-more {
+  background-color: #083D83;
+  color: white;
+  font-family: 'Arapey', serif;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 21px;
+}
+.contact-button {
 
+}
 /* ==========================================================================
 Header
 ========================================================================== */
@@ -38,17 +59,28 @@ Header
   text-align: center;
  } */
  header {
-   background-color: #B9DC8D;
+  background-image: url(../img/lone-grow.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
  }
  .logo {
    height: 90px;
    width: 150px;
  }
+ .header-text {
+   text-align: center;
+   padding-bottom: 200px;
+   padding-top: 50px;
+ }
+ .header-text h3 {
+   font-family: 'Courgette', cursive;
+ }
 /* ==========================================================================
 Nav
 ========================================================================== */
 nav {
-  background-color: #8AC53F;
+  /* background-color: #8AC53F; */
   font-family: 'Arapey', serif;
   font-size: 19px;
 }
@@ -71,17 +103,6 @@ nav li a:hover {
   color: #F2F2F2;
 }
 
-
-/* ==========================================================================
-Mission Statement
-========================================================================== */
-.mission {
-  padding: 80px;
-  background-image: url('../img/white-grow.jpeg');
-  background-size: cover;
-  background-attachment: fixed;
-  color: #083D83;
-}
 /* ==========================================================================
 Home- Image Carousel
 ========================================================================== */
@@ -101,45 +122,54 @@ Home- Image Carousel
 .img-carousel {
   padding: 50px;
 }
+
 /* ==========================================================================
-Description
+Mission Statement
 ========================================================================== */
-.description {
-  padding: 50px;
-  padding-top: 0;
+.mission {
+  padding: 100px;
 }
-.description p {
-  line-height: 1.5;
+.mission-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mission-text {
+  background-color: #F2F2F2;
+  padding: 50px;
 }
 /* ==========================================================================
 Quality
 ========================================================================== */
 .quality {
-  padding: 50px;
-  background-color: #F2F2F2;
+  padding: 100px;
 }
-.quality-grid-wrapper {
-  display: flex;
-}
-.quality-img-wrapper {
+.quality-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
-.stacked-img {
-  display: flex;
-}
 .quality-text {
-  padding: 50px;
+  background-color: #F2F2F2;
+  padding: 30px;
+}
+/* ==========================================================================
+Additional
+========================================================================== */
+.additional-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.additional {
+  padding: 100px;
 }
 /* ==========================================================================
 App
 ========================================================================== */
-.app {
+/* .app {
   padding: 50px;
 }
 .partners {
   display: inline-block;
-}
+} */
 /* ==========================================================================
 Contact Us
 ========================================================================== */
