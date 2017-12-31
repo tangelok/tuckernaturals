@@ -34,6 +34,15 @@ Grid Systems
 .col-2-3 {
   flex-basis: 66%;
 }
+.md-col-1-3 {
+  flex-basis: 30%;
+}
+.lg-col-1-3 {
+  flex-basis: 28%;
+}
+.col-1{
+  flex-basis: 90%;
+}
 /* ==========================================================================
 Buttons
 ========================================================================== */
@@ -47,8 +56,23 @@ Buttons
   width: 100%;
   font-size: 21px;
 }
-.contact-button {
-
+.read-more:hover {
+  background-color: white;
+  color: #083D83;
+}
+.header-contact-button {
+  background-color: #083D83;
+  color: white;
+  font-family: 'Arapey', serif;
+  padding: 15px 50px 15px 50px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 21px;
+  display: inline-block;
+}
+.header-contact-button:hover {
+  background-color: white;
+  color: #083D83;
 }
 /* ==========================================================================
 Header
@@ -59,10 +83,11 @@ Header
   text-align: center;
  } */
  header {
-  background-image: url(../img/lone-grow.jpeg);
+  background-image: url(../img/white-grow.jpeg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  position: relative;
  }
  .logo {
    height: 90px;
@@ -70,11 +95,27 @@ Header
  }
  .header-text {
    text-align: center;
-   padding-bottom: 200px;
-   padding-top: 50px;
+   padding-bottom: 110px;
+   padding-top: 20px;
  }
  .header-text h3 {
    font-family: 'Courgette', cursive;
+   font-size: 36px;
+   color: #8AC53F;
+ }
+ .header-img {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   bottom: -100px;
+   margin-left: 350px;
+ }
+ .header-text h1 {
+   font-size: 48px;
+ }
+ #welcome {
+   letter-spacing: 12px;
  }
 /* ==========================================================================
 Nav
@@ -102,6 +143,9 @@ nav li a:hover {
   text-decoration: none;
   color: #F2F2F2;
 }
+.nav-text {
+  color: #FCFEFF;
+}
 
 /* ==========================================================================
 Home- Image Carousel
@@ -128,6 +172,7 @@ Mission Statement
 ========================================================================== */
 .mission {
   padding: 100px;
+  margin-top: 100px;
 }
 .mission-wrapper {
   display: flex;
@@ -157,6 +202,7 @@ Additional
 .additional-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .additional {
   padding: 100px;
@@ -302,10 +348,75 @@ Careers.html
 /* ==========================================================================
 Grow.html
 ========================================================================== */
-.grow h2 {
-  color: #8AC53F;
-  text-align: center;
+.grow-mission-wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
-.grow {
+.grow-mission-text {
+  background-color: #8AC53F;
   padding: 50px;
+}
+.grow-mission {
+  padding: 100px;
+  /* margin-top: 100px; */
+}
+.circle-img{
+  position: absolute;
+  bottom: -400px;
+  left: 400px;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  z-index: 100;
+}
+.grow-description-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grow-description-text {
+  background-color: #8AC53F;
+  padding: 50px;
+}
+.grow-description {
+  position: absolute;
+  bottom: -900px;
+  padding: 100px;
+  /* margin-top: 100px; */
+}
+.grow-quality-img {
+  z-index: 100;
+}
+.grow-quality-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grow-quality-text {
+  background-color: #8AC53F;
+  padding: 50px;
+}
+.grow-quality {
+  position: absolute;
+  bottom: -1600px;
+  padding: 100px;
+  /* margin-top: 100px; */
+}
+.grow-medicine-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grow-footer {
+  position: absolute;
+  bottom: -2100px;
+  width: 100%;
+}
+/* ==========================================================================
+News.html
+========================================================================== */
+.news-wrapper {
+  display: block;
+  flex-wrap: wrap;
+}
+.news-col {
+  display: flex;
+  flex-wrap: wrap;
 }
