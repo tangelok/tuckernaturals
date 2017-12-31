@@ -43,6 +43,9 @@ Grid Systems
 .col-1{
   flex-basis: 90%;
 }
+.col-1-2 {
+  flex-basis: 47%;
+}
 /* ==========================================================================
 Buttons
 ========================================================================== */
@@ -413,10 +416,43 @@ Grow.html
 News.html
 ========================================================================== */
 .news-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.news-col {
   display: block;
   flex-wrap: wrap;
 }
-.news-col {
+.news-logo {
+  height: 100px;
+  width: 200px;
+}
+.aside {
+  display: block;
+}
+.news p {
+  background-color: #083D83;
+  color: white;
+}
+/* ==========================================================================
+tech.html
+========================================================================== */
+.tech {
+  padding: 150px;
+}
+/* ==========================================================================
+products.html
+========================================================================== */
+.products {
+  padding: 100px;
+}
+.products-img-wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.products-col {
+  display: block;
   flex-wrap: wrap;
 }
