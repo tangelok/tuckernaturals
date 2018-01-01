@@ -117,9 +117,6 @@ Header
  .header-text h1 {
    font-size: 48px;
  }
- #welcome {
-   letter-spacing: 12px;
- }
 /* ==========================================================================
 Nav
 ========================================================================== */
@@ -222,9 +219,6 @@ App
 /* ==========================================================================
 Contact Us
 ========================================================================== */
-.contact {
-  background-color: #F2F2F2;
-}
 form {
   font-family: 'Arapey', serif;
   -webkit-font-smoothing: antialiased;
@@ -301,7 +295,7 @@ footer {
 	padding: 15px;
 	display: inline-block;
   justify-content: center;
-	color: #083D83;;
+	color: #083D83;
 }
 .social-links a:hover {
   color: white;
@@ -347,6 +341,9 @@ Careers.html
 ========================================================================== */
 .careers h1 {
   text-align: center;
+}
+.careers form {
+  width: 50%;
 }
 /* ==========================================================================
 Grow.html
@@ -412,6 +409,9 @@ Grow.html
   bottom: -2100px;
   width: 100%;
 }
+.nav-grow {
+  background-color: #8AC53F;
+}
 /* ==========================================================================
 News.html
 ========================================================================== */
@@ -419,6 +419,11 @@ News.html
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.news-wrapper p {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 15px;
 }
 .news-col {
   display: block;
@@ -430,22 +435,51 @@ News.html
 }
 .aside {
   display: block;
+  padding: 20px;
+  text-align: center;
 }
 .news p {
   background-color: #083D83;
   color: white;
 }
+.aside p {
+  background-color: white;
+  color: black;
+}
+.news {
+  padding: 50px;
+}
+.social-links-news a {
+  font-size: 30px;
+  padding: 15px;
+  display: inline-block;
+  justify-content: center;
+  color: #083D83;
+}
+.aside ul {
+  text-align: left;
+}
+.news h1 {
+  font-size: 72px;
+  margin-top: 0;
+  letter-spacing: 3px;
+}
 /* ==========================================================================
 tech.html
 ========================================================================== */
 .tech {
-  padding: 150px;
+  padding: 50px 150px 150px 150px;
+}
+.tech h1 {
+  font-size: 72px;
+  margin-top: 0;
+  letter-spacing: 3px;
 }
 /* ==========================================================================
 products.html
 ========================================================================== */
 .products {
-  padding: 100px;
+  padding: 50px 100px 100px 100px;
 }
 .products-img-wrapper {
   display: flex;
@@ -455,4 +489,9 @@ products.html
 .products-col {
   display: block;
   flex-wrap: wrap;
+}
+.products h1 {
+  font-size: 72px;
+  margin-top: 0;
+  letter-spacing: 3px;
 }
