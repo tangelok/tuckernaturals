@@ -77,6 +77,48 @@ Buttons
   background-color: white;
   color: #083D83;
 }
+.latest-news {
+  background-color: #083D83;
+  color: white;
+  font-family: 'Arapey', serif;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 21px;
+}
+.latest-news:hover {
+  background-color: white;
+  color: #083D83;
+}
+.meet-the-team {
+  background-color: #083D83;
+  color: white;
+  font-family: 'Arapey', serif;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 21px;
+}
+.meet-the-team:hover {
+  background-color: white;
+  color: #083D83;
+}
+.tech-read-more {
+  background-color: #083D83;
+  color: white;
+  font-family: 'Arapey', serif;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 21px;
+}
+.tech-read-more:hover {
+  background-color: white;
+  color: #083D83;
+}
 /* ==========================================================================
 Header
 ========================================================================== */
@@ -227,7 +269,7 @@ form {
   text-align: center;
   color: #083D83;
   padding: 50px;
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
 }
 input, textarea {

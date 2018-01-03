@@ -4,12 +4,21 @@
 Main
 ------------------------------------------- */
 
-$('.contact-button').on('click', function () {
+$('.header-contact-button').on('click', function () {
 	 window.location.href="contact.html"
 });
 
 $('.read-more').on('click', function () {
 	 window.location.href="grow.html"
+});
+$('.latest-news').on('click', function () {
+	 window.location.href="news.html"
+});
+$('.meet-the-team').on('click', function () {
+	 window.location.href="team.html"
+});
+$('.tech-read-more').on('click', function () {
+	 window.location.href="tech.html"
 });
 
 
