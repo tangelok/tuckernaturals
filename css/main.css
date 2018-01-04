@@ -21,6 +21,9 @@ p {
   text-align: center;
   font-family: 'Arapey', serif;
 }
+ul {
+  font-family: 'Arapey', serif;
+}
 
 /* ==========================================================================
 Grid Systems
@@ -91,7 +94,7 @@ Buttons
   background-color: white;
   color: #083D83;
 }
-.meet-the-team {
+.more-products {
   background-color: #083D83;
   color: white;
   font-family: 'Arapey', serif;
@@ -128,10 +131,10 @@ Header
   text-align: center;
  } */
  header {
-  background-image: url(../img/white-grow.jpeg);
+  background-image: url(../img/header-img.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
   position: relative;
  }
  .logo {
@@ -307,11 +310,12 @@ input, textarea {
 /* ==========================================================================
 Footer
 ========================================================================== */
+
 footer {
   font-size: 17px;
   background-color: #B9DC8D;
   font-family: 'Arapey', serif;
-  padding: 10px 10px 15px 10px;
+  padding: 10px 0 15px 0;
   text-align: center;
 }
 .info-footer {
@@ -324,10 +328,10 @@ footer {
   color: white;
 }
 .footer-bottom {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 #site {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 #site a:hover {
   color: white;
@@ -362,8 +366,8 @@ footer a:hover {
   color: #083D83;
 }
 .copyright {
-  margin-top: 70px;
-  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 0;
   border-top: 2px solid #193441;
   padding: 15px 0 3px;
 }
@@ -404,12 +408,13 @@ Grow.html
 }
 .circle-img{
   position: absolute;
-  bottom: -400px;
+  bottom: -480px;
   left: 400px;
   border-radius: 50%;
   height: 500px;
   width: 500px;
   z-index: 100;
+  border: 2px solid color: #083D83;
 }
 .grow-description-wrapper {
   display: flex;
@@ -421,12 +426,9 @@ Grow.html
 }
 .grow-description {
   position: absolute;
-  bottom: -900px;
+  bottom: -1420px;
   padding: 100px;
   /* margin-top: 100px; */
-}
-.grow-quality-img {
-  z-index: 100;
 }
 .grow-quality-wrapper {
   display: flex;
@@ -438,7 +440,7 @@ Grow.html
 }
 .grow-quality {
   position: absolute;
-  bottom: -1600px;
+  bottom: -2160px;
   padding: 100px;
   /* margin-top: 100px; */
 }
@@ -446,13 +448,31 @@ Grow.html
   display: flex;
   flex-wrap: wrap;
 }
+/* .grow-benefits-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grow-benefits-text {
+  background-color: #8AC53F;
+  padding: 50px;
+}
+.grow-benefits {
+  padding: 100px;
+  position: absolute;
+  bottom: -2830px;
+  margin-top: 100px;
+}
+.grow-benefits-img {
+  bottom: -3400px;
+} */
 .grow-footer {
   position: absolute;
-  bottom: -2100px;
+  bottom: -2600px;
   width: 100%;
 }
 .nav-grow {
-  background-color: #8AC53F;
+    background-image: url(../img/field.jpg);
+    background-size: cover;
 }
 /* ==========================================================================
 News.html
@@ -491,13 +511,6 @@ News.html
 .news {
   padding: 50px;
 }
-.social-links-news a {
-  font-size: 30px;
-  padding: 15px;
-  display: inline-block;
-  justify-content: center;
-  color: #083D83;
-}
 .aside ul {
   text-align: left;
 }
@@ -506,11 +519,24 @@ News.html
   margin-top: 0;
   letter-spacing: 3px;
 }
+.news a {
+  color: white;
+}
+.social-links-news a {
+  font-size: 30px;
+  padding: 15px;
+  display: inline-block;
+  justify-content: center;
+  color: #083D83;
+}
+.social-links-news a:hover {
+  color: #8AC53F;
+}
 /* ==========================================================================
 tech.html
 ========================================================================== */
 .tech {
-  padding: 50px 150px 150px 150px;
+  padding: 50px 150px 100px 150px;
 }
 .tech h1 {
   font-size: 72px;
@@ -536,4 +562,76 @@ products.html
   font-size: 72px;
   margin-top: 0;
   letter-spacing: 3px;
+}
+/* ==========================================================================
+RESPONSIVE DESIGN
+========================================================================== */
+@media screen and (max-width: 1315px) {
+
+}
+@media screen and (max-width: 1000px) {
+  .mission-wrapper {
+    display: block;
+  }
+  .quality-wrapper {
+    display: block;
+  }
+  .additional-wrapper {
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  .news-sm-col-1 {
+    flex-basis: 98%;
+  }
+  .news-wrapper {
+    display: block;
+  }
+  .carousel-wrapper {
+    display: none;
+  }
+  .tech {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .mission {
+    padding: 50px;
+  }
+  .quality {
+    padding: 50px;
+  }
+  .additional {
+    padding: 50px;
+  }
+  .header-img {
+    display: none;
+  }
+  .md-col-1-2 {
+    flex-basis: 48%;
+  }
+  .newsletter {
+    margin-right: 20px;
+  }
+  .aside {
+    display: none;
+  }
+  .products-img-wrapper {
+    display: block;
+  }
+  .products-sm-col-1 {
+    flex-basis: 98%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sm-col-1 {
+    flex-basis: 98%;
+  }
+  .newsletter {
+    padding: 40px;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+
 }

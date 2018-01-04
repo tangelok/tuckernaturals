@@ -14,8 +14,8 @@ $('.read-more').on('click', function () {
 $('.latest-news').on('click', function () {
 	 window.location.href="news.html"
 });
-$('.meet-the-team').on('click', function () {
-	 window.location.href="team.html"
+$('.more-products').on('click', function () {
+	 window.location.href="products.html"
 });
 $('.tech-read-more').on('click', function () {
 	 window.location.href="tech.html"
