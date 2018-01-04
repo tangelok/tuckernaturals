@@ -31,6 +31,9 @@ Grid Systems
 .col-1-4 {
   flex-basis: 20%;
 }
+.col-1-5 {
+  flex-basis: 18%;
+}
 .col-1-3 {
   flex-basis: 33%;
 }
@@ -330,9 +333,6 @@ footer {
 .footer-bottom {
   margin-top: 20px;
 }
-#site {
-  margin-top: 30px;
-}
 #site a:hover {
   color: white;
 }
@@ -366,10 +366,9 @@ footer a:hover {
   color: #083D83;
 }
 .copyright {
-  margin-top: 40px;
   margin-bottom: 0;
   border-top: 2px solid #193441;
-  padding: 15px 0 3px;
+  padding: 6px 0 3px;
 }
 .newsletter input {
   font-size: 15px;
