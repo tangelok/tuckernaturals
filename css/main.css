@@ -50,7 +50,7 @@ Grid Systems
   flex-basis: 28%;
 }
 .col-1{
-  flex-basis: 90%;
+  flex-basis: 100%;
 }
 .col-1-2 {
   flex-basis: 47%;
@@ -144,7 +144,6 @@ Header
   background-size: cover;
   background-attachment: fixed;
   background-position: right;
-  position: relative;
  }
  .logo {
    height: 90px;
@@ -153,7 +152,7 @@ Header
  .header-text {
    text-align: center;
    padding-bottom: 110px;
-   padding-top: 20px;
+   padding-top: 80px;
  }
  .header-text h3 {
    font-family: 'Courgette', cursive;
@@ -178,6 +177,8 @@ nav {
   background-color: #446F83;
   font-family: 'Arapey', serif;
   font-size: 19px;
+  position: fixed;
+  width: 100%;
 }
 nav ul {
   text-align: center;
@@ -318,27 +319,30 @@ footer {
   font-size: 15px;
 }
 .info-footer a:hover {
-  color: white;
+  color: #8AC53F;
 }
 .footer-bottom {
   margin-top: 20px;
 }
 #site a:hover {
+  color: #8AC53F;
+}
+#site a {
   color: white;
 }
 .social-links a {
 	font-size: 30px;
-	padding: 15px;
+	margin: 15px;
 	display: inline-block;
   justify-content: center;
-	color: #083D83;
+	color: white;
 }
 .social-links a:hover {
-  color: white;
+  color: #8AC53F;
 }
 footer a {
   text-decoration: none;
-  color: #083D83;
+  color: white;
 }
 footer ul {
   margin-bottom: 0;
@@ -350,10 +354,10 @@ footer li a {
   margin: 10px;
 }
 footer li a:hover {
-  color: #083D83;
+  color: #8AC53F;
 }
 footer a:hover {
-  color: #083D83;
+  color: #8AC53F;
 }
 .copyright {
   margin-bottom: 0;
@@ -364,11 +368,15 @@ footer a:hover {
   font-size: 15px;
 }
 .newsletter h3 {
-  color: #083D83;
+  color: white;
+}
+.submit {
+  background-color: #8AC53F;
+  color: white;
 }
 .submit:hover {
-  background-color: #083D83;
-  color: white;
+  color: #8AC53F;
+  background-color: white;
 }
 
 /* ==========================================================================
@@ -522,16 +530,20 @@ products.html
 .products {
   padding: 100px;
 }
-.products-img-wrapper {
-  display: block;
-  flex-wrap: wrap;
-}
 .products-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
+.products-text {
+  background-color: #F2F2F2;
+  padding: 50px;
+}
+.products-img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 .products-col {
-  display: block;
+  display: flex;
   flex-wrap: wrap;
 }
 .products h1 {
