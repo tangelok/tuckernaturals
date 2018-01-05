@@ -151,25 +151,29 @@ Header
  }
  .header-text {
    text-align: center;
-   padding-bottom: 110px;
-   padding-top: 80px;
+   padding-bottom: 150px;
+   padding-top: 150px;
  }
  .header-text h3 {
    font-family: 'Courgette', cursive;
    font-size: 36px;
    color: #8AC53F;
  }
- .header-img {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   position: absolute;
-   bottom: -100px;
-   margin-left: 350px;
- }
+header img {
+  margin-top: 50px;
+}
  .header-text h1 {
    font-size: 48px;
  }
+
+.square {
+   width: 30%;
+   height: 0;
+   padding-bottom: 30%;
+   background-color: white;
+   margin: 0 auto;
+   border: 2px solid #8AC53F;
+}
 /* ==========================================================================
 Nav
 ========================================================================== */
@@ -265,7 +269,7 @@ form {
   text-align: center;
   color: #083D83;
   padding: 50px;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
 }
 input, textarea {
@@ -385,9 +389,6 @@ Careers.html
 .careers h1 {
   text-align: center;
 }
-.careers form {
-  width: 50%;
-}
 .careers {
   padding: 100px;
   margin-top: 0;
@@ -408,7 +409,7 @@ Grow.html
   padding: 50px;
 }
 .grow-mission {
-  padding: 100px;
+  padding: 120px;
 }
 .grow-description-wrapper {
   display: flex;
@@ -497,7 +498,7 @@ News.html
   color: black;
 }
 .news {
-  padding: 50px;
+  padding: 80px;
 }
 .aside ul {
   text-align: left;
@@ -517,7 +518,7 @@ News.html
 tech.html
 ========================================================================== */
 .tech {
-  padding: 100px;
+  padding: 120px;
 }
 .tech-wrapper {
   display: flex;
