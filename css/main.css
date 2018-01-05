@@ -388,6 +388,14 @@ Careers.html
 .careers form {
   width: 50%;
 }
+.careers {
+  padding: 100px;
+  margin-top: 0;
+}
+.contact {
+  padding: 100px;
+  margin-top: 0;
+}
 /* ==========================================================================
 Grow.html
 ========================================================================== */
@@ -469,6 +477,9 @@ News.html
   display: block;
   flex-wrap: wrap;
 }
+.news-col a {
+  display: block;
+}
 .news-logo {
   height: 100px;
   width: 200px;
@@ -499,15 +510,8 @@ News.html
 .news a {
   color: black;
 }
-.social-links-news a {
-  font-size: 30px;
-  padding: 15px;
-  display: inline-block;
-  justify-content: center;
-  color: #083D83;
-}
-.social-links-news a:hover {
-  color: #8AC53F;
+.aerial {
+  margin-top: 25px;
 }
 /* ==========================================================================
 tech.html
