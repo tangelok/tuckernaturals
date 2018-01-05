@@ -24,6 +24,9 @@ p {
 ul {
   font-family: 'Arapey', serif;
 }
+body {
+  background-color: #B9DC8D;
+}
 
 /* ==========================================================================
 Grid Systems
@@ -51,6 +54,9 @@ Grid Systems
 }
 .col-1-2 {
   flex-basis: 47%;
+}
+.row {
+  display: block;
 }
 /* ==========================================================================
 Buttons
@@ -169,7 +175,7 @@ Header
 Nav
 ========================================================================== */
 nav {
-  /* background-color: #8AC53F; */
+  background-color: #446F83;
   font-family: 'Arapey', serif;
   font-size: 19px;
 }
@@ -184,36 +190,17 @@ nav li {
 }
 nav li a {
   text-decoration: none;
-  color: #083D83;
+  color: white;
   margin: 0 10px 0 10px;
 }
 nav li a:hover {
   text-decoration: none;
-  color: #F2F2F2;
+  color: #8AC53F;
 }
 .nav-text {
   color: #FCFEFF;
 }
 
-/* ==========================================================================
-Home- Image Carousel
-========================================================================== */
-.carousel-wrapper img {
- margin: 0 auto;
- height: 400px;
- width: 600px;
-}
-.slick-prev {
- z-index: 100;
- left: 150px;
- color: #043A83;
-}
-.slick-next {
- z-index: 100;
-}
-.img-carousel {
-  padding: 50px;
-}
 
 /* ==========================================================================
 Mission Statement
@@ -251,6 +238,8 @@ Additional
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #F2F2F2;
+  padding: 0 15px 15px 15px;
 }
 .additional {
   padding: 100px;
@@ -316,10 +305,11 @@ Footer
 
 footer {
   font-size: 17px;
-  background-color: #B9DC8D;
+  background-color: #446F83;
   font-family: 'Arapey', serif;
   padding: 10px 0 15px 0;
   text-align: center;
+  color: white;
 }
 .info-footer {
   display: flex;
@@ -398,50 +388,33 @@ Grow.html
   flex-wrap: wrap;
 }
 .grow-mission-text {
-  background-color: #8AC53F;
+  background-color: #F2F2F2;
   padding: 50px;
 }
 .grow-mission {
   padding: 100px;
-  /* margin-top: 100px; */
-}
-.circle-img{
-  position: absolute;
-  bottom: -480px;
-  left: 400px;
-  border-radius: 50%;
-  height: 500px;
-  width: 500px;
-  z-index: 100;
-  border: 2px solid color: #083D83;
 }
 .grow-description-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
 .grow-description-text {
-  background-color: #8AC53F;
+  background-color: #F2F2F2;
   padding: 50px;
 }
 .grow-description {
-  position: absolute;
-  bottom: -1420px;
   padding: 100px;
-  /* margin-top: 100px; */
 }
 .grow-quality-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
 .grow-quality-text {
-  background-color: #8AC53F;
+  background-color: #F2F2F2;
   padding: 50px;
 }
 .grow-quality {
-  position: absolute;
-  bottom: -2160px;
   padding: 100px;
-  /* margin-top: 100px; */
 }
 .grow-medicine-wrapper {
   display: flex;
@@ -465,8 +438,6 @@ Grow.html
   bottom: -3400px;
 } */
 .grow-footer {
-  position: absolute;
-  bottom: -2600px;
   width: 100%;
 }
 .nav-grow {
@@ -500,8 +471,7 @@ News.html
   text-align: center;
 }
 .news p {
-  background-color: #083D83;
-  color: white;
+  background-color: #F2F2F2;
 }
 .aside p {
   background-color: white;
@@ -519,7 +489,7 @@ News.html
   letter-spacing: 3px;
 }
 .news a {
-  color: white;
+  color: black;
 }
 .social-links-news a {
   font-size: 30px;
@@ -535,7 +505,11 @@ News.html
 tech.html
 ========================================================================== */
 .tech {
-  padding: 50px 150px 100px 150px;
+  padding: 100px;
+}
+.tech-wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
 .tech h1 {
   font-size: 72px;
@@ -546,12 +520,15 @@ tech.html
 products.html
 ========================================================================== */
 .products {
-  padding: 50px 100px 100px 100px;
+  padding: 100px;
 }
 .products-img-wrapper {
+  display: block;
+  flex-wrap: wrap;
+}
+.products-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 .products-col {
   display: block;
